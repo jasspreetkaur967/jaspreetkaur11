@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./example
+        working-directory: ./main.tf
 
     steps:
       - name: checkout
